@@ -58,3 +58,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Explanation:
+# 1.Tokenization:
+#       The tokenize_text function uses NLTK's word_tokenize to break the text into individual words or tokens.
+
+# 2.Stopword Removal:
+#       The remove_stopwords function removes common English stopwords using NLTK's stopwords corpus.
+
+# 3.Lemmatization:
+#       The lemmatize_text function uses NLTK's WordNetLemmatizer to reduce words to their base or root form.
+
+# 4.Stemming:
+#       The stem_text function uses NLTK's PorterStemmer to reduce words to their stems.
